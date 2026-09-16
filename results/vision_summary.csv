@@ -1,0 +1,14 @@
+metric,value
+images_evaluated,200.0
+top1_accuracy,0.615
+top3_accuracy,0.84
+mean_top1_probability,0.6367264698445797
+mean_cosine_similarity,0.30952986106276514
+mean_probability_margin,0.4652590047040394
+mean_similarity_margin,0.017767851054668427
+acceptance_rate,0.655
+abstention_rate,0.345
+accuracy_when_accepted,0.7480916030534351
+unsafe_accepted_errors,33.0
+abstained_incorrect_predictions,44.0
+abstained_correct_predictions,25.0

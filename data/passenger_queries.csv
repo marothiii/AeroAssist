@@ -1,0 +1,281 @@
+sample_id,text,intent,entities,urgency,passenger_need,difficulty,expected_kb_record,split
+TXT001,Where is Gate B12?,find_gate,"{""gate_number"": ""B12""}",normal,standard,ambiguous,NIA006,train
+TXT002,Can you show me the way to B9?,find_gate,"{""gate_number"": ""B9""}",normal,standard,direct,NIA005,validation
+TXT003,I need Gate A8.,find_gate,"{""gate_number"": ""A8""}",normal,standard,ambiguous,NIA002,train
+TXT004,How do I get to A3?,find_gate,"{""gate_number"": ""A3""}",normal,standard,direct,NIA001,test
+TXT005,Which way is A12?,find_gate,"{""gate_number"": ""A12""}",normal,standard,ambiguous,NIA003,train
+TXT006,"B4 please, where do I go?",find_gate,"{""gate_number"": ""B4""}",normal,standard,ambiguous,NIA004,train
+TXT007,I've passed security and need B12.,find_gate,"{""gate_number"": ""B12""}",normal,standard,direct,NIA006,train
+TXT008,Can you direct me to Gate A8?,find_gate,"{""gate_number"": ""A8""}",normal,standard,direct,NIA002,validation
+TXT009,My boarding gate is A3. How do I reach it?,find_gate,"{""gate_number"": ""A3""}",normal,standard,direct,NIA001,train
+TXT010,I'm trying to find B9.,find_gate,"{""gate_number"": ""B9""}",normal,standard,direct,NIA005,train
+TXT011,Gate A12 directions please.,find_gate,"{""gate_number"": ""A12""}",normal,standard,ambiguous,NIA003,train
+TXT012,Where can I find B4 after security?,find_gate,"{""gate_number"": ""B4""}",normal,standard,direct,NIA004,train
+TXT013,My boarding pass says B12.,find_gate,"{""gate_number"": ""B12""}",normal,standard,direct,NIA006,train
+TXT014,Could you help me locate A8?,find_gate,"{""gate_number"": ""A8""}",normal,standard,direct,NIA002,validation
+TXT015,Which direction for Gate A3?,find_gate,"{""gate_number"": ""A3""}",normal,standard,direct,NIA001,train
+TXT016,"I think I need to go to B9, can you guide me?",find_gate,"{""gate_number"": ""B9""}",normal,standard,conversational,NIA005,test
+TXT017,How far is Gate A12 from security?,find_gate,"{""gate_number"": ""A12""}",normal,standard,direct,NIA003,train
+TXT018,Take me to B4.,find_gate,"{""gate_number"": ""B4""}",normal,standard,ambiguous,NIA004,test
+TXT019,I'm late and still need to find B12.,find_gate,"{""gate_number"": ""B12""}",time_sensitive,standard,contextual,NIA006,train
+TXT020,Where's A8 from the departure area?,find_gate,"{""gate_number"": ""A8""}",normal,standard,direct,NIA002,train
+TXT021,Where do I check in for an international flight?,find_checkin,{},normal,standard,direct,NIA007,test
+TXT022,Where is Terminal 1 check-in?,find_checkin,"{""terminal_number"": ""Terminal 1""}",normal,standard,direct,NIA007,train
+TXT023,I need to drop my bag before my international flight.,find_checkin,{},normal,standard,direct,NIA007,train
+TXT024,Which way to the international check-in desks?,find_checkin,{},normal,standard,direct,NIA007,validation
+TXT025,Where are the check-in counters in T1?,find_checkin,"{""terminal_number"": ""Terminal 1""}",normal,standard,direct,NIA007,validation
+TXT026,I just entered Terminal 1. Where do I check in?,find_checkin,"{""terminal_number"": ""Terminal 1""}",normal,standard,direct,NIA007,train
+TXT027,Where is regional check-in?,find_checkin,{},normal,standard,ambiguous,NIA008,test
+TXT028,I need the Terminal 2 bag drop.,find_checkin,"{""terminal_number"": ""Terminal 2""}",normal,standard,direct,NIA008,train
+TXT029,Where are the T2 check-in counters?,find_checkin,"{""terminal_number"": ""Terminal 2""}",normal,standard,direct,NIA008,test
+TXT030,Which way for regional flight check-in?,find_checkin,{},normal,standard,direct,NIA008,train
+TXT031,I'm in Terminal 2 and haven't checked in yet.,find_checkin,"{""terminal_number"": ""Terminal 2""}",normal,standard,direct,NIA008,train
+TXT032,Can you guide me to the regional check-in hall?,find_checkin,{},normal,standard,direct,NIA008,train
+TXT033,International bag drop please.,find_checkin,{},normal,standard,ambiguous,NIA007,train
+TXT034,Where should I check my suitcase in T1?,find_checkin,"{""terminal_number"": ""Terminal 1""}",normal,standard,direct,NIA007,train
+TXT035,Check-in desk for international departures?,find_checkin,{},normal,standard,direct,NIA007,train
+TXT036,Where do regional passengers check bags?,find_checkin,{},normal,standard,direct,NIA008,train
+TXT037,I need to check in before security in T2.,find_checkin,"{""terminal_number"": ""Terminal 2""}",normal,standard,direct,NIA008,train
+TXT038,How do I reach check-in from the Terminal 1 entrance?,find_checkin,"{""terminal_number"": ""Terminal 1""}",normal,standard,direct,NIA007,train
+TXT039,Is the regional check-in area in Terminal 2?,find_checkin,"{""terminal_number"": ""Terminal 2""}",normal,standard,direct,NIA008,train
+TXT040,Take me to check-in in T1.,find_checkin,"{""terminal_number"": ""Terminal 1""}",normal,standard,direct,NIA007,validation
+TXT041,Where is baggage claim in Terminal 1?,find_baggage,"{""terminal_number"": ""Terminal 1""}",normal,standard,direct,NIA011,train
+TXT042,How do I get to baggage claim?,find_baggage,{},normal,standard,direct,NIA011,validation
+TXT043,Where do I collect my suitcase in T2?,find_baggage,"{""terminal_number"": ""Terminal 2""}",normal,standard,direct,NIA012,train
+TXT044,Which way to the luggage belts?,find_baggage,{},normal,standard,direct,NIA011,train
+TXT045,I just landed in Terminal 2. Where are my bags?,find_baggage,"{""terminal_number"": ""Terminal 2""}",normal,standard,direct,NIA012,train
+TXT046,Where is baggage reclaim hall 1?,find_baggage,{},normal,standard,direct,NIA011,test
+TXT047,Take me to baggage claim hall 2.,find_baggage,{},normal,standard,direct,NIA012,train
+TXT048,Where are the carousels in Terminal 1?,find_baggage,"{""terminal_number"": ""Terminal 1""}",normal,standard,direct,NIA011,validation
+TXT049,I need belt information for Terminal 2 arrivals.,find_baggage,"{""terminal_number"": ""Terminal 2""}",normal,standard,direct,NIA012,train
+TXT050,Where do arriving passengers collect luggage in T1?,find_baggage,"{""terminal_number"": ""Terminal 1""}",normal,standard,direct,NIA011,train
+TXT051,Baggage pickup T2?,find_baggage,"{""terminal_number"": ""Terminal 2""}",normal,standard,ambiguous,NIA012,train
+TXT052,I'm after immigration. Where is baggage claim?,find_baggage,{},normal,standard,direct,NIA011,test
+TXT053,Where are the luggage belts in Terminal 2?,find_baggage,"{""terminal_number"": ""Terminal 2""}",normal,standard,direct,NIA012,train
+TXT054,Help me find baggage reclaim.,find_baggage,{},normal,standard,direct,NIA011,train
+TXT055,My bag should be coming out in T2. Where do I go?,find_baggage,"{""terminal_number"": ""Terminal 2""}",normal,standard,conversational,NIA012,train
+TXT056,Where's the baggage hall after landing in T1?,find_baggage,"{""terminal_number"": ""Terminal 1""}",normal,standard,direct,NIA011,train
+TXT057,Suitcase collection area?,find_baggage,{},normal,standard,ambiguous,NIA011,test
+TXT058,Bags in terminal two?,find_baggage,{},normal,standard,ambiguous,NIA012,validation
+TXT059,I landed and need to collect checked baggage.,find_baggage,{},normal,standard,direct,NIA011,train
+TXT060,Where is the T2 baggage carousel area?,find_baggage,"{""terminal_number"": ""Terminal 2""}",normal,standard,direct,NIA012,train
+TXT061,Where is security in Terminal 1?,find_security,"{""terminal_number"": ""Terminal 1""}",normal,standard,direct,NIA009,train
+TXT062,How do I get to security after check-in?,find_security,{},normal,standard,direct,NIA009,test
+TXT063,Where is Security Control South?,find_security,{},normal,standard,direct,NIA010,train
+TXT064,Which way to screening in T2?,find_security,"{""terminal_number"": ""Terminal 2""}",normal,standard,direct,NIA010,train
+TXT065,I finished check-in in Terminal 1. What's the way to security?,find_security,"{""terminal_number"": ""Terminal 1""}",normal,standard,conversational,NIA009,train
+TXT066,Where do they scan bags in T1?,find_security,"{""terminal_number"": ""Terminal 1""}",normal,standard,direct,NIA009,validation
+TXT067,Take me to the T2 security checkpoint.,find_security,"{""terminal_number"": ""Terminal 2""}",normal,standard,direct,NIA010,train
+TXT068,Where is passenger screening?,find_security,{},normal,standard,ambiguous,NIA009,train
+TXT069,Security in terminal two?,find_security,{},normal,standard,ambiguous,NIA010,train
+TXT070,I need to pass security before Gate A8.,find_security,"{""gate_number"": ""A8""}",normal,standard,direct,NIA009,train
+TXT071,Which checkpoint should I use for B12?,find_security,"{""gate_number"": ""B12""}",normal,standard,direct,NIA010,train
+TXT072,How far is security from regional check-in?,find_security,{},normal,standard,direct,NIA010,train
+TXT073,Where's the North security control?,find_security,{},normal,standard,direct,NIA009,validation
+TXT074,I need the South checkpoint.,find_security,{},normal,standard,direct,NIA010,train
+TXT075,Can you direct me to security in T1?,find_security,"{""terminal_number"": ""Terminal 1""}",normal,standard,direct,NIA009,train
+TXT076,Where do I go after international check-in?,find_security,{},normal,standard,direct,NIA009,test
+TXT077,Screening area Terminal 2 please.,find_security,"{""terminal_number"": ""Terminal 2""}",normal,standard,direct,NIA010,train
+TXT078,Security checkpoint for the B gates?,find_security,{},normal,standard,direct,NIA010,test
+TXT079,I am at T1 check-in; where next for screening?,find_security,"{""terminal_number"": ""Terminal 1""}",normal,standard,direct,NIA009,validation
+TXT080,Where can I find security control?,find_security,{},normal,standard,direct,NIA009,train
+TXT081,Where is the lounge?,find_lounge,{},normal,standard,ambiguous,NIA013,test
+TXT082,How do I find SkyNova Lounge?,find_lounge,{},normal,standard,direct,NIA013,train
+TXT083,Is there somewhere quiet to sit after security?,find_lounge,{},normal,standard,direct,NIA013,train
+TXT084,Directions to the airport lounge please.,find_lounge,{},normal,standard,direct,NIA013,train
+TXT085,Where can I relax in Terminal 1?,find_lounge,"{""terminal_number"": ""Terminal 1""}",normal,standard,direct,NIA013,validation
+TXT086,Which way to SkyNova?,find_lounge,{},normal,standard,ambiguous,NIA013,test
+TXT087,I want the passenger lounge.,find_lounge,{},normal,standard,direct,NIA013,train
+TXT088,Is the lounge near Gate A8?,find_lounge,"{""gate_number"": ""A8""}",normal,standard,direct,NIA013,train
+TXT089,Where is the work and refreshment lounge?,find_lounge,{},normal,standard,direct,NIA013,train
+TXT090,Take me to SkyNova Lounge.,find_lounge,{},normal,standard,direct,NIA013,train
+TXT091,I need a quiet lounge in T1.,find_lounge,"{""terminal_number"": ""Terminal 1""}",normal,standard,direct,NIA013,train
+TXT092,Where can I sit and work airside?,find_lounge,{},normal,standard,direct,NIA013,test
+TXT093,Lounge directions from security?,find_lounge,{},normal,standard,ambiguous,NIA013,train
+TXT094,Can you locate the lounge for me?,find_lounge,{},normal,standard,direct,NIA013,train
+TXT095,Where's SkyNova after Security North?,find_lounge,{},normal,standard,direct,NIA013,validation
+TXT096,I want somewhere comfortable before boarding.,find_lounge,{},normal,standard,direct,NIA013,train
+TXT097,Is there a lounge in A Concourse?,find_lounge,{},normal,standard,direct,NIA013,validation
+TXT098,Show me the way to the lounge.,find_lounge,{},normal,standard,direct,NIA013,train
+TXT099,Where can I get lounge refreshments?,find_lounge,{},normal,standard,direct,NIA013,train
+TXT100,SkyNova location?,find_lounge,{},normal,standard,ambiguous,NIA013,train
+TXT101,Where can I eat?,find_restaurant,{},normal,standard,ambiguous,NIA020,train
+TXT102,Where is the food court?,find_restaurant,{},normal,standard,direct,NIA020,train
+TXT103,I'm hungry. Is there food after security?,find_restaurant,{},normal,standard,direct,NIA020,train
+TXT104,How do I get to Nova Food Court?,find_restaurant,{},normal,standard,direct,NIA020,train
+TXT105,Where can I buy coffee in Terminal 1?,find_restaurant,"{""terminal_number"": ""Terminal 1""}",normal,standard,direct,NIA020,validation
+TXT106,Restaurant near the A gates?,find_restaurant,{},normal,standard,direct,NIA020,train
+TXT107,I need something to eat before boarding.,find_restaurant,{},normal,standard,direct,NIA020,validation
+TXT108,Which way to the dining area?,find_restaurant,{},normal,standard,direct,NIA020,test
+TXT109,Food in A Concourse?,find_restaurant,{},normal,standard,ambiguous,NIA020,train
+TXT110,Take me to the restaurants.,find_restaurant,{},normal,standard,direct,NIA020,train
+TXT111,Where is the airport food area?,find_restaurant,{},normal,standard,direct,NIA020,test
+TXT112,Can I get a meal after Security North?,find_restaurant,{},normal,standard,direct,NIA020,train
+TXT113,Where's Nova Food Court from Gate A8?,find_restaurant,"{""gate_number"": ""A8""}",normal,standard,direct,NIA020,train
+TXT114,Any place to eat in T1 airside?,find_restaurant,"{""terminal_number"": ""Terminal 1""}",normal,standard,direct,NIA020,validation
+TXT115,I want coffee and food.,find_restaurant,{},normal,standard,direct,NIA020,train
+TXT116,Where can my family have a meal?,find_restaurant,{},normal,family,direct,NIA020,train
+TXT117,Dining options location?,find_restaurant,{},normal,standard,ambiguous,NIA020,test
+TXT118,Food court directions please.,find_restaurant,{},normal,standard,ambiguous,NIA020,train
+TXT119,I'm looking for a restaurant.,find_restaurant,{},normal,standard,direct,NIA020,train
+TXT120,Where can I grab something quickly before my flight?,find_restaurant,{},normal,standard,direct,NIA020,train
+TXT121,Where is the airport train?,find_transport,{},normal,standard,direct,NIA021,train
+TXT122,How do I get to the train station?,find_transport,{},normal,standard,direct,NIA021,train
+TXT123,I need a train into the city.,find_transport,{},normal,standard,direct,NIA021,train
+TXT124,Which way to rail transport?,find_transport,{},normal,standard,direct,NIA021,train
+TXT125,Where is the station from Terminal 2 arrivals?,find_transport,"{""terminal_number"": ""Terminal 2""}",normal,standard,direct,NIA021,validation
+TXT126,Can I take a train from the airport?,find_transport,{},normal,standard,direct,NIA021,train
+TXT127,Where are the taxis?,find_transport,{},normal,standard,ambiguous,NIA022,train
+TXT128,How do I find the rideshare pickup?,find_transport,{},normal,standard,direct,NIA022,train
+TXT129,Where should my taxi collect me?,find_transport,{},normal,standard,direct,NIA022,train
+TXT130,Which exit for Uber pickup?,find_transport,{},normal,standard,direct,NIA022,test
+TXT131,Take me to the taxi zone.,find_transport,{},normal,standard,direct,NIA022,train
+TXT132,Ground transport by car please.,find_transport,{},normal,standard,direct,NIA022,train
+TXT133,I need public transport to the city.,find_transport,{},normal,standard,direct,NIA021,train
+TXT134,Train connection after baggage claim?,find_transport,{},normal,standard,direct,NIA021,train
+TXT135,Where is Door 4 taxi pickup?,find_transport,{},normal,standard,direct,NIA022,test
+TXT136,How far is the station from arrivals?,find_transport,{},normal,standard,direct,NIA021,validation
+TXT137,Rideshare zone in T2?,find_transport,"{""terminal_number"": ""Terminal 2""}",normal,standard,ambiguous,NIA022,train
+TXT138,Where do I go for a cab?,find_transport,{},normal,standard,direct,NIA022,test
+TXT139,Rail station directions please.,find_transport,{},normal,standard,ambiguous,NIA021,train
+TXT140,I collected my bags and want the train.,find_transport,{},normal,standard,direct,NIA021,validation
+TXT141,Where is the information desk in T1?,find_information,"{""terminal_number"": ""Terminal 1""}",normal,standard,direct,NIA014,train
+TXT142,I need help in Terminal 2. Where's information?,find_information,"{""terminal_number"": ""Terminal 2""}",normal,standard,direct,NIA015,train
+TXT143,Where can I ask a general airport question?,find_information,{},normal,standard,direct,NIA014,train
+TXT144,Information desk please.,find_information,{},normal,standard,ambiguous,NIA014,test
+TXT145,Where's passenger information in Terminal 2?,find_information,"{""terminal_number"": ""Terminal 2""}",normal,standard,direct,NIA015,train
+TXT146,I just entered T1 and need the help desk.,find_information,"{""terminal_number"": ""Terminal 1""}",normal,standard,direct,NIA014,train
+TXT147,Can you direct me to information?,find_information,{},normal,standard,direct,NIA014,train
+TXT148,Help desk in T2?,find_information,"{""terminal_number"": ""Terminal 2""}",normal,standard,ambiguous,NIA015,train
+TXT149,Where can airport staff answer my question?,find_information,{},normal,standard,direct,NIA014,train
+TXT150,I need the Terminal 1 information counter.,find_information,"{""terminal_number"": ""Terminal 1""}",normal,standard,direct,NIA014,train
+TXT151,Where is T2's main help desk?,find_information,"{""terminal_number"": ""Terminal 2""}",normal,standard,direct,NIA015,validation
+TXT152,Passenger assistance desk for general questions?,find_information,{},normal,standard,direct,NIA014,validation
+TXT153,Information counter opposite T2 entrance?,find_information,"{""terminal_number"": ""Terminal 2""}",normal,standard,direct,NIA015,train
+TXT154,Where can I speak to someone in T1?,find_information,"{""terminal_number"": ""Terminal 1""}",normal,standard,direct,NIA014,train
+TXT155,Take me to Information Desk T2.,find_information,"{""terminal_number"": ""Terminal 2""}",normal,standard,direct,NIA015,test
+TXT156,Where's the central information point?,find_information,{},normal,standard,direct,NIA014,validation
+TXT157,I need airport information in terminal two.,find_information,{},normal,standard,direct,NIA015,test
+TXT158,Which way to the help counter?,find_information,{},normal,standard,direct,NIA014,train
+TXT159,General assistance in T1?,find_information,"{""terminal_number"": ""Terminal 1""}",normal,standard,ambiguous,NIA014,train
+TXT160,Where do I ask for directions in T2?,find_information,"{""terminal_number"": ""Terminal 2""}",normal,standard,direct,NIA015,train
+TXT161,I lost my phone.,lost_property,{},normal,standard,ambiguous,NIA016,train
+TXT162,Where is lost and found?,lost_property,{},normal,standard,contextual,NIA016,train
+TXT163,I left my backpack somewhere in the airport.,lost_property,{},normal,standard,direct,NIA016,train
+TXT164,Who can help with a lost wallet?,lost_property,{},normal,standard,contextual,NIA016,test
+TXT165,I can't find my headphones.,lost_property,{},normal,standard,contextual,NIA016,validation
+TXT166,Where do I report lost property?,lost_property,{},normal,standard,contextual,NIA016,train
+TXT167,My laptop is missing.,lost_property,{},normal,standard,ambiguous,NIA016,train
+TXT168,I think I left my coat at baggage claim.,lost_property,{},normal,standard,direct,NIA016,train
+TXT169,Lost item help please.,lost_property,{},normal,standard,ambiguous,NIA016,train
+TXT170,I forgot a bag in the terminal.,lost_property,{},normal,standard,direct,NIA016,train
+TXT171,Where should I go if I lost something?,lost_property,{},normal,standard,contextual,NIA016,train
+TXT172,Can airport staff help find my phone?,lost_property,{},normal,standard,direct,NIA016,validation
+TXT173,I misplaced my keys.,lost_property,{},normal,standard,ambiguous,NIA016,validation
+TXT174,My child's toy was left behind.,lost_property,{},normal,family,direct,NIA016,train
+TXT175,Where is the property office?,lost_property,{},normal,standard,direct,NIA016,train
+TXT176,I lost my purse after landing.,lost_property,{},normal,standard,contextual,NIA016,test
+TXT177,Someone in my family lost a tablet.,lost_property,{},normal,family,contextual,NIA016,train
+TXT178,I need to report a missing suitcase I left in the terminal.,lost_property,{},normal,standard,contextual,NIA016,test
+TXT179,Lost and Found Centre directions?,lost_property,{},normal,standard,contextual,NIA016,train
+TXT180,Where do recovered items go?,lost_property,{},normal,standard,direct,NIA016,train
+TXT181,I can't use stairs. Can you help me?,accessibility_help,{},assistance,accessibility,contextual,NIA017,train
+TXT182,Where is the special assistance desk?,accessibility_help,{},assistance,accessibility,direct,NIA017,train
+TXT183,I need wheelchair assistance.,accessibility_help,{},assistance,accessibility,ambiguous,NIA017,test
+TXT184,I have limited mobility and need help reaching my gate.,accessibility_help,{},assistance,accessibility,contextual,NIA017,train
+TXT185,Where can I request an accessible route?,accessibility_help,{},assistance,accessibility,direct,NIA017,validation
+TXT186,I need a step-free way through the airport.,accessibility_help,{},assistance,accessibility,direct,NIA017,train
+TXT187,Can someone assist me with mobility?,accessibility_help,{},assistance,accessibility,direct,NIA017,train
+TXT188,Where do passengers request wheelchair support?,accessibility_help,{},assistance,accessibility,direct,NIA017,test
+TXT189,I need a lift instead of stairs.,accessibility_help,{},assistance,accessibility,direct,NIA017,train
+TXT190,My grandmother cannot walk far.,accessibility_help,{},assistance,accessibility,contextual,NIA017,train
+TXT191,I require special assistance before security.,accessibility_help,{},assistance,accessibility,direct,NIA017,test
+TXT192,Where is accessibility support in T1?,accessibility_help,"{""terminal_number"": ""Terminal 1""}",assistance,accessibility,direct,NIA017,train
+TXT193,I need help travelling through the terminal with reduced mobility.,accessibility_help,{},assistance,accessibility,direct,NIA017,train
+TXT194,Is there a mobility assistance point?,accessibility_help,{},assistance,accessibility,direct,NIA017,train
+TXT195,Please show me a wheelchair-friendly route.,accessibility_help,{},assistance,accessibility,direct,NIA017,train
+TXT196,I can't manage escalators.,accessibility_help,{},assistance,accessibility,ambiguous,NIA017,validation
+TXT197,Where can I get help for an accessible journey?,accessibility_help,{},assistance,accessibility,direct,NIA017,train
+TXT198,I need assistance getting through the airport.,accessibility_help,{},assistance,accessibility,direct,NIA017,train
+TXT199,Can staff help me reach boarding without stairs?,accessibility_help,{},assistance,accessibility,direct,NIA017,train
+TXT200,Special assistance location please.,accessibility_help,{},assistance,accessibility,ambiguous,NIA017,validation
+TXT201,Where can I change my baby's diaper?,family_assistance,{},normal,family,direct,NIA019,validation
+TXT202,Is there a family room?,family_assistance,{},normal,family,direct,NIA019,train
+TXT203,I need somewhere to feed my baby.,family_assistance,{},normal,family,direct,NIA019,train
+TXT204,Where is the Family Care Zone?,family_assistance,{},normal,family,direct,NIA019,test
+TXT205,Is there a family restroom near the B gates?,family_assistance,{},normal,family,direct,NIA019,train
+TXT206,My child needs a quiet family area.,family_assistance,{},normal,family,direct,NIA019,test
+TXT207,Where can parents change a baby?,family_assistance,{},normal,family,direct,NIA019,test
+TXT208,I need child-friendly seating.,family_assistance,{},normal,family,ambiguous,NIA019,train
+TXT209,Is there a feeding room after security?,family_assistance,{},normal,family,direct,NIA019,train
+TXT210,Family facilities in Terminal 2?,family_assistance,"{""terminal_number"": ""Terminal 2""}",normal,family,direct,NIA019,train
+TXT211,Where can I take my toddler before boarding?,family_assistance,{},normal,family,direct,NIA019,train
+TXT212,Baby changing near Gate B9?,family_assistance,"{""gate_number"": ""B9""}",normal,family,direct,NIA019,train
+TXT213,Can you show me the family zone?,family_assistance,{},normal,family,direct,NIA019,validation
+TXT214,We are travelling with a baby and need facilities.,family_assistance,{},normal,family,direct,NIA019,train
+TXT215,Where's the family restroom?,family_assistance,{},normal,family,ambiguous,NIA019,train
+TXT216,Is there somewhere private to feed an infant?,family_assistance,{},normal,family,direct,NIA019,train
+TXT217,I need the baby care area.,family_assistance,{},normal,family,direct,NIA019,train
+TXT218,What family facilities are near B12?,family_assistance,"{""gate_number"": ""B12""}",normal,family,direct,NIA019,train
+TXT219,Where can we sit with small children?,family_assistance,{},normal,family,direct,NIA019,train
+TXT220,Take us to the Family Care Zone.,family_assistance,{},normal,family,direct,NIA019,validation
+TXT221,I lost my passport.,travel_document_help,{},critical,standard,ambiguous,NIA024,train
+TXT222,My passport is missing and my flight is today.,travel_document_help,{},critical,standard,contextual,NIA024,test
+TXT223,Where can I get help with a lost travel document?,travel_document_help,{},critical,standard,contextual,NIA024,train
+TXT224,I can't find my passport before security.,travel_document_help,{},critical,standard,contextual,NIA024,train
+TXT225,Who should I speak to about a missing passport?,travel_document_help,{},critical,standard,contextual,NIA024,train
+TXT226,I lost my identity document.,travel_document_help,{},critical,standard,contextual,NIA024,train
+TXT227,Passport help desk please.,travel_document_help,{},critical,standard,ambiguous,NIA024,train
+TXT228,My travel documents are gone.,travel_document_help,{},critical,standard,direct,NIA024,train
+TXT229,I think my passport was stolen.,travel_document_help,{},critical,standard,direct,NIA024,test
+TXT230,Where do I report a lost passport at the airport?,travel_document_help,{},critical,standard,contextual,NIA024,train
+TXT231,I need urgent passport assistance.,travel_document_help,{},critical,standard,direct,NIA024,validation
+TXT232,My ID is missing and I'm supposed to fly.,travel_document_help,{},critical,standard,contextual,NIA024,train
+TXT233,Can the airport help if I've lost my passport?,travel_document_help,{},critical,standard,contextual,NIA024,train
+TXT234,"Travel document problem, where do I go?",travel_document_help,{},critical,standard,direct,NIA024,train
+TXT235,I don't have my passport anymore.,travel_document_help,{},critical,standard,direct,NIA024,train
+TXT236,I misplaced my passport in the terminal.,travel_document_help,{},critical,standard,direct,NIA024,validation
+TXT237,Where is the Passport & Travel Help Desk?,travel_document_help,{},critical,standard,direct,NIA024,train
+TXT238,I need a person to help with my documents.,travel_document_help,{},critical,standard,direct,NIA024,test
+TXT239,My boarding time is soon and my passport is lost.,travel_document_help,{},critical,standard,contextual,NIA024,train
+TXT240,Who handles urgent travel-document issues?,travel_document_help,{},critical,standard,direct,NIA024,validation
+TXT241,Where do I go for my connecting flight?,transfer_help,{},normal,standard,direct,NIA025,validation
+TXT242,I have a connection. Can you help?,transfer_help,{},normal,standard,direct,NIA025,train
+TXT243,Where is the transfer desk?,transfer_help,{},normal,standard,direct,NIA025,validation
+TXT244,How do I reach my next flight?,transfer_help,{},normal,standard,direct,NIA025,validation
+TXT245,I just landed and need to transfer.,transfer_help,{},normal,standard,direct,NIA025,test
+TXT246,Which way for flight connections?,transfer_help,{},normal,standard,direct,NIA025,test
+TXT247,I have another flight after this one.,transfer_help,{},normal,standard,direct,NIA025,train
+TXT248,Where do connecting passengers go?,transfer_help,{},normal,standard,direct,NIA025,train
+TXT249,Can you direct me to the Connections desk?,transfer_help,{},normal,standard,direct,NIA025,train
+TXT250,I need help changing flights.,transfer_help,{},normal,standard,direct,NIA025,test
+TXT251,Transfer assistance please.,transfer_help,{},normal,standard,ambiguous,NIA025,train
+TXT252,Where is the airside transfer zone?,transfer_help,{},normal,standard,direct,NIA025,train
+TXT253,My next flight leaves from another gate. What should I do?,transfer_help,{},normal,standard,conversational,NIA025,train
+TXT254,How do I make my connection?,transfer_help,{},normal,standard,direct,NIA025,train
+TXT255,I need help finding my onward flight.,transfer_help,{},normal,standard,direct,NIA025,train
+TXT256,Connection desk after arrival screening?,transfer_help,{},normal,standard,direct,NIA025,train
+TXT257,I'm transferring through NIA.,transfer_help,{},normal,standard,ambiguous,NIA025,train
+TXT258,Where can I verify my connecting gate?,transfer_help,{},normal,standard,direct,NIA025,train
+TXT259,I have a short connection and need help.,transfer_help,{},time_sensitive,standard,contextual,NIA025,train
+TXT260,Take me to transfer assistance.,transfer_help,{},normal,standard,direct,NIA025,train
+TXT261,What time does SkyNova Lounge open?,opening_hours,{},normal,standard,direct,NIA013,test
+TXT262,Is the lounge open now?,opening_hours,{},normal,standard,direct,NIA013,train
+TXT263,When does the food court close?,opening_hours,{},normal,standard,direct,NIA020,validation
+TXT264,What are Nova Food Court's hours?,opening_hours,{},normal,standard,direct,NIA020,train
+TXT265,Is Lost & Found open in the evening?,opening_hours,{},normal,standard,contextual,NIA016,train
+TXT266,What time does Lost & Found close?,opening_hours,{},normal,standard,contextual,NIA016,train
+TXT267,When is the Family Care Zone open?,opening_hours,{},normal,family,direct,NIA019,train
+TXT268,Is the prayer room open late?,opening_hours,{},time_sensitive,standard,contextual,NIA018,test
+TXT269,What are the Quiet & Prayer Room hours?,opening_hours,{},normal,standard,direct,NIA018,train
+TXT270,Is the train station open at night?,opening_hours,{},normal,standard,direct,NIA021,train
+TXT271,What time does the airport train station close?,opening_hours,{},normal,standard,direct,NIA021,train
+TXT272,When does the Passport Help Desk open?,opening_hours,{},normal,standard,direct,NIA024,train
+TXT273,Is the Passport & Travel Help Desk open tonight?,opening_hours,{},normal,standard,direct,NIA024,train
+TXT274,What hours is Information Desk T1 staffed?,opening_hours,"{""terminal_number"": ""Terminal 1""}",normal,standard,direct,NIA014,validation
+TXT275,When does Information Desk T2 close?,opening_hours,"{""terminal_number"": ""Terminal 2""}",normal,standard,direct,NIA015,train
+TXT276,Is the Special Assistance Desk open early?,opening_hours,{},normal,standard,direct,NIA017,test
+TXT277,What time can I use regional check-in?,opening_hours,{},normal,standard,direct,NIA008,train
+TXT278,When does international check-in open?,opening_hours,{},normal,standard,direct,NIA007,train
+TXT279,Are taxis available all night?,opening_hours,{},normal,standard,direct,NIA022,train
+TXT280,What are the SkyNova Lounge opening hours?,opening_hours,{},normal,standard,direct,NIA013,validation

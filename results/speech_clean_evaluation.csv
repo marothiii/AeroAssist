@@ -1,0 +1,6 @@
+audio_id,filename,condition,reference,transcript,wer,expected_intent,predicted_intent,intent_correct,expected_gate,predicted_gate,entity_correct,downstream_correct,confidence,retrieved_record
+SPEECH001,speech_01.m4a,clean,Where is Gate B12?,Where is Gate B12?,0.0,find_gate,find_gate,True,B12,B12,True,True,confident,NIA006
+SPEECH002,speech_02.m4a,clean,Where is the nearest security checkpoint?,Where is the nearest security checkpoint?,0.0,find_security,find_security,True,,,True,True,confident,NIA009
+SPEECH003,speech_03.m4a,clean,I lost my passport.,I lost my passport.,0.0,travel_document_help,travel_document_help,True,,,True,True,confident,NIA024
+SPEECH004,speech_04.m4a,clean,Where can I change my baby's diaper?,Where can I change my baby's diaper?,0.0,family_assistance,family_assistance,True,,,True,True,caution,NIA019
+SPEECH005,speech_05.m4a,clean,How do I get to the train station?,How do I get to the train station?,0.0,find_transport,find_transport,True,,,True,True,confident,NIA021

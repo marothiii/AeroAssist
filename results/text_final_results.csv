@@ -1,0 +1,71 @@
+sample_id,query,expected_intent,predicted_intent,correct,confidence,confidence_reason,semantic_confidence,retrieval_similarity,entity_match,model_disagreement,retrieved_record,expected_record,retrieval_correct
+FT001,Which way is Gate A3?,find_gate,find_gate,True,confident,exact entity match,0.441,0.521,True,False,NIA001,NIA001,True
+FT002,Can you direct me to B9?,find_gate,find_gate,True,confident,exact entity match,0.278,0.406,True,False,NIA005,NIA005,True
+FT003,I need directions to Gate A12.,find_gate,find_gate,True,confident,exact entity match,0.373,0.583,True,False,NIA003,NIA003,True
+FT004,Where do I go for Gate B4?,find_gate,find_gate,True,confident,exact entity match,0.351,0.615,True,False,NIA004,NIA004,True
+FT005,How can I get to A8?,find_gate,find_gate,True,confident,exact entity match,0.254,0.47,True,False,NIA002,NIA002,True
+FT006,Where do I check in for an international flight?,find_checkin,find_checkin,True,confident,intent models agree with sufficient retrieval similarity,0.26,0.555,False,False,NIA007,NIA007,True
+FT007,Which area has the airline check-in desks?,find_checkin,find_checkin,True,confident,intent models agree with sufficient retrieval similarity,0.194,0.562,False,False,NIA007,NIA007|NIA008,True
+FT008,I need to drop my bags before security. Where do I check in?,find_checkin,find_checkin,True,confident,intent models agree with sufficient retrieval similarity,0.185,0.441,False,False,NIA008,NIA007|NIA008,True
+FT009,Where are the check-in counters for regional departures?,find_checkin,find_checkin,True,confident,intent models agree with sufficient retrieval similarity,0.263,0.582,False,False,NIA008,NIA008,True
+FT010,How do I reach the departure check-in hall?,find_checkin,find_checkin,True,confident,intent models agree with sufficient retrieval similarity,0.15,0.573,False,False,NIA007,NIA007|NIA008,True
+FT011,Where should I collect my suitcase after landing?,find_baggage,find_baggage,True,uncertain,insufficient supporting evidence,0.249,0.321,False,False,NIA011,NIA011|NIA012,True
+FT012,How do I get to baggage reclaim?,find_baggage,find_baggage,True,confident,intent models agree with sufficient retrieval similarity,0.34,0.44,False,False,NIA011,NIA011|NIA012,True
+FT013,Which hall has the luggage carousels?,find_baggage,find_baggage,True,confident,intent models agree with sufficient retrieval similarity,0.196,0.473,False,False,NIA011,NIA011|NIA012,True
+FT014,Where do arriving passengers pick up checked bags?,find_baggage,find_baggage,True,caution,semantic intent and retrieval provide moderate evidence,0.25,0.386,False,False,NIA011,NIA011|NIA012,True
+FT015,I just landed. Where is baggage collection?,find_baggage,find_baggage,True,confident,intent models agree with sufficient retrieval similarity,0.422,0.448,False,False,NIA011,NIA011|NIA012,True
+FT016,Where do I go for the security check?,find_security,find_security,True,confident,intent models agree with sufficient retrieval similarity,0.237,0.358,False,False,NIA010,NIA009|NIA010,True
+FT017,How can I reach airport security?,find_security,find_security,True,confident,intent models agree with sufficient retrieval similarity,0.175,0.422,False,False,NIA009,NIA009|NIA010,True
+FT018,Which way is the passenger screening area?,find_security,find_security,True,uncertain,insufficient supporting evidence,0.146,0.336,False,False,NIA010,NIA009|NIA010,True
+FT019,I need to pass through security before my gate. Where is it?,find_security,find_gate,False,uncertain,intent models disagree,0.219,0.465,False,True,NIA002,NIA009|NIA010,False
+FT020,Where are bags and passengers screened?,find_security,find_baggage,False,uncertain,insufficient supporting evidence,0.248,0.371,False,False,NIA012,NIA009|NIA010,False
+FT021,Is there a lounge where I can wait?,find_lounge,find_lounge,True,confident,intent models agree with sufficient retrieval similarity,0.513,0.508,False,False,NIA013,NIA013,True
+FT022,Where can I find the airport lounge?,find_lounge,find_lounge,True,confident,intent models agree with sufficient retrieval similarity,0.424,0.568,False,False,NIA013,NIA013,True
+FT023,I want somewhere quiet to sit before boarding.,find_lounge,find_lounge,True,caution,semantic intent and retrieval provide moderate evidence,0.269,0.418,False,False,NIA013,NIA013,True
+FT024,How do I get to the SkyNova Lounge?,find_lounge,find_lounge,True,confident,intent models agree with sufficient retrieval similarity,0.474,0.651,False,False,NIA013,NIA013,True
+FT025,Which area has the passenger lounge?,find_lounge,find_lounge,True,confident,intent models agree with sufficient retrieval similarity,0.408,0.564,False,False,NIA013,NIA013,True
+FT026,Where can I get something to eat?,find_restaurant,find_restaurant,True,caution,intent models agree but retrieval similarity is limited,0.519,0.261,False,False,NIA020,NIA020,True
+FT027,Is there a food court nearby?,find_restaurant,find_restaurant,True,confident,intent models agree with sufficient retrieval similarity,0.513,0.548,False,False,NIA020,NIA020,True
+FT028,Where can I buy a meal before my flight?,find_restaurant,find_restaurant,True,uncertain,insufficient supporting evidence,0.446,0.344,False,False,NIA020,NIA020,True
+FT029,I need a restaurant in the terminal.,find_restaurant,find_restaurant,True,confident,intent models agree with sufficient retrieval similarity,0.331,0.596,False,False,NIA020,NIA020,True
+FT030,Which way is the main dining area?,find_restaurant,find_restaurant,True,uncertain,insufficient supporting evidence,0.236,0.403,False,False,NIA020,NIA020,True
+FT031,How do I get to the airport train?,find_transport,find_transport,True,confident,intent models agree with sufficient retrieval similarity,0.379,0.431,False,False,NIA021,NIA021,True
+FT032,Where can I find taxis outside the terminal?,find_transport,find_transport,True,confident,intent models agree with sufficient retrieval similarity,0.267,0.479,False,False,NIA022,NIA022,True
+FT033,Which way is the railway station?,find_transport,find_transport,True,confident,intent models agree with sufficient retrieval similarity,0.384,0.379,False,False,NIA021,NIA021,True
+FT034,Where do I go for ground transport?,find_transport,find_transport,True,confident,intent models agree with sufficient retrieval similarity,0.307,0.385,False,False,NIA022,NIA021|NIA022,True
+FT035,How can I reach the taxi and rideshare area?,find_transport,find_transport,True,confident,intent models agree with sufficient retrieval similarity,0.379,0.461,False,False,NIA022,NIA022,True
+FT036,Where is an information desk?,find_information,find_information,True,confident,intent models agree with sufficient retrieval similarity,0.196,0.657,False,False,NIA014,NIA014|NIA015,True
+FT037,I need to ask airport staff a general question.,find_information,find_information,True,uncertain,insufficient supporting evidence,0.115,0.223,False,False,NIA014,NIA014|NIA015,True
+FT038,Where can I get passenger information?,find_information,find_information,True,uncertain,intent models disagree,0.219,0.412,False,True,NIA015,NIA014|NIA015,True
+FT039,Is there a help desk in the terminal?,find_information,find_information,True,caution,semantic intent and retrieval provide moderate evidence,0.251,0.526,False,False,NIA014,NIA014|NIA015,True
+FT040,Where should I go for general airport assistance?,find_information,accessibility_help,False,uncertain,insufficient supporting evidence,0.161,0.328,False,False,NIA017,NIA014|NIA015,False
+FT041,I left my phone somewhere in the airport.,lost_property,lost_property,True,uncertain,insufficient supporting evidence,0.242,0.372,False,False,NIA016,NIA016,True
+FT042,Where should I report a missing backpack?,lost_property,lost_property,True,uncertain,insufficient supporting evidence,0.313,0.22,False,False,NIA016,NIA016,True
+FT043,I cannot find my wallet.,lost_property,lost_property,True,uncertain,insufficient supporting evidence,0.204,0.244,False,False,NIA016,NIA016,True
+FT044,Who can help with property I lost in the terminal?,lost_property,lost_property,True,confident,intent models agree with sufficient retrieval similarity,0.358,0.543,False,False,NIA016,NIA016,True
+FT045,Where is Lost and Found?,lost_property,lost_property,True,confident,intent models agree with sufficient retrieval similarity,0.356,0.462,False,False,NIA016,NIA016,True
+FT046,I use a wheelchair and need assistance.,accessibility_help,accessibility_help,True,confident,intent models agree with sufficient retrieval similarity,0.451,0.532,False,False,NIA017,NIA017,True
+FT047,Where can I get step-free help?,accessibility_help,accessibility_help,True,uncertain,insufficient supporting evidence,0.268,0.198,False,False,NIA017,NIA017,True
+FT048,I cannot use escalators. Who can assist me?,accessibility_help,accessibility_help,True,uncertain,insufficient supporting evidence,0.319,0.279,False,False,NIA017,NIA017,True
+FT049,I need mobility assistance through the terminal.,accessibility_help,accessibility_help,True,confident,intent models agree with sufficient retrieval similarity,0.395,0.545,False,False,NIA017,NIA017,True
+FT050,Where is the special assistance service?,accessibility_help,accessibility_help,True,uncertain,insufficient supporting evidence,0.165,0.486,False,False,NIA017,NIA017,True
+FT051,Where can I change my baby's diaper?,family_assistance,family_assistance,True,caution,intent models agree but retrieval similarity is limited,0.322,0.249,False,False,NIA019,NIA019,True
+FT052,Is there a family care area?,family_assistance,family_assistance,True,confident,intent models agree with sufficient retrieval similarity,0.45,0.475,False,False,NIA019,NIA019,True
+FT053,I am travelling with a small child and need family facilities.,family_assistance,family_assistance,True,confident,intent models agree with sufficient retrieval similarity,0.472,0.37,False,False,NIA019,NIA019,True
+FT054,Where is the baby changing room?,family_assistance,family_assistance,True,confident,intent models agree with sufficient retrieval similarity,0.424,0.453,False,False,NIA019,NIA019,True
+FT055,Are there facilities for parents with children?,family_assistance,family_assistance,True,confident,intent models agree with sufficient retrieval similarity,0.545,0.343,False,False,NIA019,NIA019,True
+FT056,My passport is missing. Where should I go?,travel_document_help,travel_document_help,True,confident,intent models agree with sufficient retrieval similarity,0.561,0.538,False,False,NIA024,NIA024,True
+FT057,Who can help me with a passport problem?,travel_document_help,travel_document_help,True,confident,intent models agree with sufficient retrieval similarity,0.6,0.527,False,False,NIA024,NIA024,True
+FT058,I have an issue with my travel documents.,travel_document_help,travel_document_help,True,caution,semantic intent and retrieval provide moderate evidence,0.495,0.468,False,False,NIA024,NIA024,True
+FT059,Where is the passport assistance desk?,travel_document_help,travel_document_help,True,confident,intent models agree with sufficient retrieval similarity,0.278,0.681,False,False,NIA024,NIA024,True
+FT060,I lost an important travel document before departure.,travel_document_help,lost_property,False,uncertain,intent models disagree,0.472,0.332,False,True,NIA016,NIA024,False
+FT061,How do I get to my connecting flight?,transfer_help,transfer_help,True,confident,intent models agree with sufficient retrieval similarity,0.399,0.415,False,False,NIA025,NIA025,True
+FT062,Where should transfer passengers go?,transfer_help,transfer_help,True,uncertain,intent models disagree,0.195,0.382,False,True,NIA025,NIA025,True
+FT063,I have another flight after this one. Which way do I go?,transfer_help,transfer_help,True,uncertain,insufficient supporting evidence,0.24,0.255,False,False,NIA025,NIA025,True
+FT064,How do I reach flight connections?,transfer_help,transfer_help,True,confident,intent models agree with sufficient retrieval similarity,0.426,0.432,False,False,NIA025,NIA025,True
+FT065,I need help changing to my next flight.,transfer_help,transfer_help,True,uncertain,insufficient supporting evidence,0.247,0.317,False,False,NIA025,NIA025,True
+FT066,What time does the SkyNova Lounge open?,opening_hours,opening_hours,True,uncertain,intent models disagree,0.414,0.546,False,True,NIA013,NIA013,True
+FT067,When does the food court close?,opening_hours,opening_hours,True,uncertain,intent models disagree,0.313,0.466,False,True,NIA020,NIA020,True
+FT068,What are the Information Desk opening times?,opening_hours,opening_hours,True,uncertain,intent models disagree,0.467,0.423,False,True,NIA014,NIA014|NIA015,True
+FT069,Until what time is Lost and Found open?,opening_hours,opening_hours,True,uncertain,intent models disagree,0.468,0.271,False,True,NIA016,NIA016,True
+FT070,What hours is the Family Care Zone available?,opening_hours,opening_hours,True,caution,semantic intent and retrieval provide moderate evidence,0.359,0.461,False,False,NIA019,NIA019,True

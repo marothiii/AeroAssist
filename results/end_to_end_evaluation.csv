@@ -1,0 +1,10 @@
+case_id,type,modalities,transcript,vision_predicted_class,vision_score,vision_confidence,fusion_image_label,expected_record,predicted_record,expected_behavior,predicted_behavior,fusion_confidence,conflict,record_correct,behavior_correct,confidence_correct,exact_correct
+E2E001,voice_clean,voice,Where is Gate B12?,,,,,NIA006,NIA006,retrieve,retrieve,confident,False,True,True,,True
+E2E002,voice_clean,voice,Where is the nearest security checkpoint?,,,,,NIA009,NIA009,retrieve,retrieve,confident,False,True,True,,True
+E2E003,voice_clean,voice,I lost my passport.,,,,,NIA024,NIA024,human_handover,human_handover,confident,False,True,True,,True
+E2E004,image_text_agreement,image+text,,gate_sign,0.6946014761924744,caution,gate,NIA006,NIA006,retrieve,retrieve,confident,False,True,True,,True
+E2E005,image_text_conflict,image+text,,baggage_claim,0.778893768787384,confident,baggage_claim,NIA006,NIA006,conflict_warning,conflict_warning,caution,True,True,True,,True
+E2E006,vision_uncertainty,image+text,,information,0.36444422602653503,uncertain,,NIA006,NIA006,retrieve,retrieve,confident,False,True,True,,True
+E2E007,image_voice_conflict,image+voice,Where is Gate B12?,baggage_claim,0.778893768787384,confident,baggage_claim,NIA006,NIA006,conflict_warning,conflict_warning,caution,True,True,True,,True
+E2E008,voice_moderate_noise,voice,Where is Gabe B12?,,,,,NIA006,NIA006,retrieve,retrieve,confident,False,True,True,,True
+E2E009,voice_severe_noise,voice,let it find,,,,,,NIA016,,retrieve,uncertain,False,,,True,True

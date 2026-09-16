@@ -1,0 +1,101 @@
+{
+  "project": "AeroAssist AI",
+  "intents": {
+    "find_gate": [
+      "gate_number",
+      "terminal_number"
+    ],
+    "find_checkin": [
+      "airline",
+      "terminal_number"
+    ],
+    "find_baggage": [
+      "terminal_number",
+      "flight_number"
+    ],
+    "find_security": [
+      "terminal_number"
+    ],
+    "find_lounge": [
+      "terminal_number"
+    ],
+    "find_restaurant": [
+      "terminal_number",
+      "location"
+    ],
+    "find_transport": [
+      "transport_type",
+      "destination"
+    ],
+    "find_information": [
+      "terminal_number"
+    ],
+    "lost_property": [
+      "item"
+    ],
+    "accessibility_help": [
+      "mobility_need",
+      "destination"
+    ],
+    "family_assistance": [
+      "family_need",
+      "location"
+    ],
+    "travel_document_help": [
+      "document_type"
+    ],
+    "transfer_help": [
+      "flight_number",
+      "terminal_number",
+      "gate_number"
+    ],
+    "opening_hours": [
+      "service_name"
+    ]
+  },
+  "global_entities": [
+    "gate_number",
+    "terminal_number",
+    "service_name",
+    "location",
+    "airline",
+    "flight_number",
+    "time",
+    "time_remaining",
+    "transport_type",
+    "destination",
+    "mobility_need",
+    "journey_stage"
+  ],
+  "passenger_modes": [
+    "standard",
+    "accessibility",
+    "family",
+    "urgent"
+  ],
+  "urgency_levels": [
+    "normal",
+    "time_sensitive",
+    "assistance",
+    "critical"
+  ],
+  "confidence_policy": {
+    "confident": {
+      "min": 0.8,
+      "action": "Return normal recommendation."
+    },
+    "caution": {
+      "min": 0.6,
+      "max": 0.799999,
+      "action": "Return recommendation with uncertainty warning and verification advice."
+    },
+    "uncertain": {
+      "max": 0.599999,
+      "action": "Do not guess; request clarification, clearer input, or human assistance."
+    }
+  },
+  "conflict_policy": {
+    "description": "Flag semantically incompatible high-confidence evidence from different modalities instead of blindly averaging it.",
+    "example": "Image=baggage_claim while text intent=find_gate -> multimodal conflict warning."
+  }
+}

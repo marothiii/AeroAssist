@@ -1,0 +1,6 @@
+audio_id,filename,condition,reference,transcript,wer,expected_intent,predicted_intent,intent_correct,expected_gate,predicted_gate,entity_correct,downstream_correct,confidence,retrieved_record
+SPEECH001N,speech_01_noisy.m4a,noisy,Where is Gate B12?,Let's see parameters,1.0,find_gate,find_information,False,B12,,False,False,uncertain,NIA014
+SPEECH002N,speech_02_noisy.m4a,noisy,Where is the nearest security checkpoint?,What is the most beautiful thing?,0.6667,find_security,lost_property,False,,,True,False,uncertain,NIA016
+SPEECH003N,speech_03_noisy.m4a,noisy,I lost my passport.,I left my scarf to...,0.75,travel_document_help,lost_property,False,,,True,False,uncertain,NIA016
+SPEECH004N,speech_04_noisy.m4a,noisy,Where can I change my baby's diaper?,Very parachute's menu is that seems,1.0,family_assistance,accessibility_help,False,,,True,False,uncertain,NIA017
+SPEECH005N,speech_05_noisy.m4a,noisy,How do I get to the train station?,I'd like to get to the transition.,0.625,find_transport,transfer_help,False,,,True,False,uncertain,NIA025

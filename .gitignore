@@ -1,0 +1,22 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Temporary files
+*.tmp
+*.log

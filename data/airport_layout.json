@@ -1,0 +1,131 @@
+{
+  "airport": "Nova International Airport",
+  "code": "NIA",
+  "terminals": [
+    "Terminal 1",
+    "Terminal 2"
+  ],
+  "lifts": {
+    "L1": {
+      "terminal": "Terminal 1",
+      "connects": [
+        "Ground Floor",
+        "Level 1",
+        "Level 2"
+      ],
+      "accessible": true
+    },
+    "L2": {
+      "terminal": "Terminal 1",
+      "connects": [
+        "Level 1",
+        "Level 2"
+      ],
+      "accessible": true
+    },
+    "L3": {
+      "terminal": "Terminal 2",
+      "connects": [
+        "Ground Floor",
+        "Level 1",
+        "Level 2"
+      ],
+      "accessible": true
+    },
+    "L4": {
+      "terminal": "Terminal 2",
+      "connects": [
+        "Level 1",
+        "Level 2"
+      ],
+      "accessible": true
+    },
+    "L5": {
+      "terminal": "Terminal 2",
+      "connects": [
+        "Ground Floor",
+        "Lower Ground"
+      ],
+      "accessible": true
+    }
+  },
+  "journey_flows": {
+    "departure": [
+      "ARRIVAL_AT_AIRPORT",
+      "CHECK_IN",
+      "SECURITY",
+      "DEPARTURE_AREA",
+      "GATE",
+      "BOARDING"
+    ],
+    "arrival": [
+      "ARRIVAL_GATE",
+      "IMMIGRATION",
+      "BAGGAGE",
+      "CUSTOMS",
+      "GROUND_TRANSPORT"
+    ]
+  },
+  "connections": [
+    {
+      "from": "International Check-in Hall",
+      "to": "Security Control North",
+      "minutes": 3,
+      "accessible": true
+    },
+    {
+      "from": "Security Control North",
+      "to": "Gate A3",
+      "minutes": 5,
+      "accessible": true
+    },
+    {
+      "from": "Security Control North",
+      "to": "Gate A8",
+      "minutes": 8,
+      "accessible": true
+    },
+    {
+      "from": "Security Control North",
+      "to": "Gate A12",
+      "minutes": 12,
+      "accessible": true
+    },
+    {
+      "from": "Regional Check-in Hall",
+      "to": "Security Control South",
+      "minutes": 3,
+      "accessible": true
+    },
+    {
+      "from": "Security Control South",
+      "to": "Gate B4",
+      "minutes": 5,
+      "accessible": true
+    },
+    {
+      "from": "Security Control South",
+      "to": "Gate B9",
+      "minutes": 7,
+      "accessible": true
+    },
+    {
+      "from": "Security Control South",
+      "to": "Gate B12",
+      "minutes": 8,
+      "accessible": true
+    },
+    {
+      "from": "Baggage Claim Hall 2",
+      "to": "Airport Train Station",
+      "minutes": 7,
+      "accessible": true
+    },
+    {
+      "from": "Baggage Claim Hall 2",
+      "to": "Taxi & Rideshare Zone",
+      "minutes": 4,
+      "accessible": true
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+sample_id,text,intent,expected_record
+FT001,Which way is Gate A3?,find_gate,NIA001
+FT002,Can you direct me to B9?,find_gate,NIA005
+FT003,I need directions to Gate A12.,find_gate,NIA003
+FT004,Where do I go for Gate B4?,find_gate,NIA004
+FT005,How can I get to A8?,find_gate,NIA002
+FT006,Where do I check in for an international flight?,find_checkin,NIA007
+FT007,Which area has the airline check-in desks?,find_checkin,NIA007|NIA008
+FT008,I need to drop my bags before security. Where do I check in?,find_checkin,NIA007|NIA008
+FT009,Where are the check-in counters for regional departures?,find_checkin,NIA008
+FT010,How do I reach the departure check-in hall?,find_checkin,NIA007|NIA008
+FT011,Where should I collect my suitcase after landing?,find_baggage,NIA011|NIA012
+FT012,How do I get to baggage reclaim?,find_baggage,NIA011|NIA012
+FT013,Which hall has the luggage carousels?,find_baggage,NIA011|NIA012
+FT014,Where do arriving passengers pick up checked bags?,find_baggage,NIA011|NIA012
+FT015,I just landed. Where is baggage collection?,find_baggage,NIA011|NIA012
+FT016,Where do I go for the security check?,find_security,NIA009|NIA010
+FT017,How can I reach airport security?,find_security,NIA009|NIA010
+FT018,Which way is the passenger screening area?,find_security,NIA009|NIA010
+FT019,I need to pass through security before my gate. Where is it?,find_security,NIA009|NIA010
+FT020,Where are bags and passengers screened?,find_security,NIA009|NIA010
+FT021,Is there a lounge where I can wait?,find_lounge,NIA013
+FT022,Where can I find the airport lounge?,find_lounge,NIA013
+FT023,I want somewhere quiet to sit before boarding.,find_lounge,NIA013
+FT024,How do I get to the SkyNova Lounge?,find_lounge,NIA013
+FT025,Which area has the passenger lounge?,find_lounge,NIA013
+FT026,Where can I get something to eat?,find_restaurant,NIA020
+FT027,Is there a food court nearby?,find_restaurant,NIA020
+FT028,Where can I buy a meal before my flight?,find_restaurant,NIA020
+FT029,I need a restaurant in the terminal.,find_restaurant,NIA020
+FT030,Which way is the main dining area?,find_restaurant,NIA020
+FT031,How do I get to the airport train?,find_transport,NIA021
+FT032,Where can I find taxis outside the terminal?,find_transport,NIA022
+FT033,Which way is the railway station?,find_transport,NIA021
+FT034,Where do I go for ground transport?,find_transport,NIA021|NIA022
+FT035,How can I reach the taxi and rideshare area?,find_transport,NIA022
+FT036,Where is an information desk?,find_information,NIA014|NIA015
+FT037,I need to ask airport staff a general question.,find_information,NIA014|NIA015
+FT038,Where can I get passenger information?,find_information,NIA014|NIA015
+FT039,Is there a help desk in the terminal?,find_information,NIA014|NIA015
+FT040,Where should I go for general airport assistance?,find_information,NIA014|NIA015
+FT041,I left my phone somewhere in the airport.,lost_property,NIA016
+FT042,Where should I report a missing backpack?,lost_property,NIA016
+FT043,I cannot find my wallet.,lost_property,NIA016
+FT044,Who can help with property I lost in the terminal?,lost_property,NIA016
+FT045,Where is Lost and Found?,lost_property,NIA016
+FT046,I use a wheelchair and need assistance.,accessibility_help,NIA017
+FT047,Where can I get step-free help?,accessibility_help,NIA017
+FT048,I cannot use escalators. Who can assist me?,accessibility_help,NIA017
+FT049,I need mobility assistance through the terminal.,accessibility_help,NIA017
+FT050,Where is the special assistance service?,accessibility_help,NIA017
+FT051,Where can I change my baby's diaper?,family_assistance,NIA019
+FT052,Is there a family care area?,family_assistance,NIA019
+FT053,I am travelling with a small child and need family facilities.,family_assistance,NIA019
+FT054,Where is the baby changing room?,family_assistance,NIA019
+FT055,Are there facilities for parents with children?,family_assistance,NIA019
+FT056,My passport is missing. Where should I go?,travel_document_help,NIA024
+FT057,Who can help me with a passport problem?,travel_document_help,NIA024
+FT058,I have an issue with my travel documents.,travel_document_help,NIA024
+FT059,Where is the passport assistance desk?,travel_document_help,NIA024
+FT060,I lost an important travel document before departure.,travel_document_help,NIA024
+FT061,How do I get to my connecting flight?,transfer_help,NIA025
+FT062,Where should transfer passengers go?,transfer_help,NIA025
+FT063,I have another flight after this one. Which way do I go?,transfer_help,NIA025
+FT064,How do I reach flight connections?,transfer_help,NIA025
+FT065,I need help changing to my next flight.,transfer_help,NIA025
+FT066,What time does the SkyNova Lounge open?,opening_hours,NIA013
+FT067,When does the food court close?,opening_hours,NIA020
+FT068,What are the Information Desk opening times?,opening_hours,NIA014|NIA015
+FT069,Until what time is Lost and Found open?,opening_hours,NIA016
+FT070,What hours is the Family Care Zone available?,opening_hours,NIA019

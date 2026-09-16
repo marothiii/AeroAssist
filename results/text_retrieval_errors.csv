@@ -1,0 +1,5 @@
+sample_id,query,expected_intent,predicted_intent,correct,confidence,confidence_reason,semantic_confidence,retrieval_similarity,entity_match,model_disagreement,retrieved_record,expected_record,retrieval_correct
+FT019,I need to pass through security before my gate. Where is it?,find_security,find_gate,False,uncertain,intent models disagree,0.219,0.465,False,True,NIA002,NIA009|NIA010,False
+FT020,Where are bags and passengers screened?,find_security,find_baggage,False,uncertain,insufficient supporting evidence,0.248,0.371,False,False,NIA012,NIA009|NIA010,False
+FT040,Where should I go for general airport assistance?,find_information,accessibility_help,False,uncertain,insufficient supporting evidence,0.161,0.328,False,False,NIA017,NIA014|NIA015,False
+FT060,I lost an important travel document before departure.,travel_document_help,lost_property,False,uncertain,intent models disagree,0.472,0.332,False,True,NIA016,NIA024,False

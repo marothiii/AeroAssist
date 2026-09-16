@@ -1,0 +1,375 @@
+[
+  {
+    "scenario_id": "CH001",
+    "type": "agreement",
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "image_label": "gate",
+    "text": "Where is Gate B12?",
+    "expected_record": "NIA006",
+    "expected_behavior": "retrieve",
+    "notes": "Image and text agree."
+  },
+  {
+    "scenario_id": "CH002",
+    "type": "complementary",
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "image_label": "gate_b12",
+    "text": "I can't use stairs.",
+    "expected_record": "NIA006",
+    "expected_behavior": "accessible_route",
+    "notes": "Image supplies destination; text supplies accessibility need."
+  },
+  {
+    "scenario_id": "CH003",
+    "type": "contradiction",
+    "modalities": [
+      "image",
+      "voice"
+    ],
+    "image_label": "baggage_claim",
+    "text": "Is this the way to Gate B12?",
+    "expected_record": "NIA006",
+    "expected_behavior": "conflict_warning",
+    "notes": "High-confidence modalities disagree."
+  },
+  {
+    "scenario_id": "CH004",
+    "type": "uncertainty",
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "image_label": "blurry_gate",
+    "text": "I'm looking for B12.",
+    "expected_record": "NIA006",
+    "expected_behavior": "weight_text_more",
+    "notes": "Low-confidence image; strong text entity."
+  },
+  {
+    "scenario_id": "CH005",
+    "type": "ambiguity",
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "image_label": "train",
+    "text": "Where do I go?",
+    "expected_record": "NIA021",
+    "expected_behavior": "weight_image_more",
+    "notes": "Strong visual evidence; ambiguous text."
+  },
+  {
+    "scenario_id": "CH006",
+    "type": "critical",
+    "modalities": [
+      "voice"
+    ],
+    "image_label": "",
+    "text": "I've lost my passport and my flight boards soon.",
+    "expected_record": "NIA024",
+    "expected_behavior": "human_handover",
+    "notes": "Critical travel-document issue."
+  },
+  {
+    "scenario_id": "CH007",
+    "type": "journey_memory",
+    "modalities": [
+      "text"
+    ],
+    "image_label": "",
+    "text": "And after that?",
+    "expected_record": "",
+    "expected_behavior": "use_session_context",
+    "notes": "Follow-up after a prior security query."
+  },
+  {
+    "scenario_id": "CH008",
+    "type": "family_context",
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "image_label": "gate_b9",
+    "text": "Where can I change my baby's diaper before boarding?",
+    "expected_record": "NIA019",
+    "expected_behavior": "family_recommendation",
+    "notes": "Context should surface Family Care Zone."
+  },
+  {
+    "scenario_id": "CH009",
+    "type": "urgent_accessibility",
+    "modalities": [
+      "text"
+    ],
+    "image_label": "",
+    "text": "I need B12, boarding closes soon, and I cannot use stairs.",
+    "expected_record": "NIA006",
+    "expected_behavior": "urgent_accessible_route",
+    "notes": "Two context constraints affect response."
+  },
+  {
+    "scenario_id": "CH010",
+    "type": "live_data_safety",
+    "modalities": [
+      "text"
+    ],
+    "image_label": "",
+    "text": "Has my gate changed?",
+    "expected_record": "",
+    "expected_behavior": "official_source_redirect",
+    "notes": "System must not invent live operational data."
+  },
+  {
+    "scenario_id": "CH011",
+    "type": "agreement",
+    "modalities": [
+      "image",
+      "voice"
+    ],
+    "image_label": "train",
+    "text": "I need the train into the city.",
+    "expected_record": "NIA021",
+    "expected_behavior": "retrieve",
+    "notes": "Image and voice agree."
+  },
+  {
+    "scenario_id": "CH012",
+    "type": "contradiction",
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "image_label": "security",
+    "text": "This is baggage claim, right?",
+    "expected_record": "",
+    "expected_behavior": "conflict_warning",
+    "notes": "Contradictory semantic categories."
+  },
+  {
+    "scenario_id": "CH013",
+    "type": "assistance",
+    "modalities": [
+      "voice"
+    ],
+    "image_label": "",
+    "text": "My grandmother cannot walk far. We need help reaching the gate.",
+    "expected_record": "NIA017",
+    "expected_behavior": "assistance_route",
+    "notes": "Accessibility inferred from natural language."
+  },
+  {
+    "scenario_id": "CH014",
+    "type": "privacy",
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "image_label": "boarding_pass",
+    "text": "Which gate am I at?",
+    "expected_record": "",
+    "expected_behavior": "privacy_warning_and_minimise",
+    "notes": "Sensitive document handling."
+  },
+  {
+    "scenario_id": "CH015",
+    "type": "critical",
+    "modalities": [
+      "text"
+    ],
+    "image_label": "",
+    "text": "Someone has collapsed near me.",
+    "expected_record": "NIA023",
+    "expected_behavior": "emergency_handover",
+    "notes": "Immediate human/emergency escalation."
+  },
+  {
+    "scenario_id": "CH016",
+    "type": "complementary",
+    "modalities": [
+      "image",
+      "voice"
+    ],
+    "image_label": "gate_a8",
+    "text": "Is there somewhere quiet near here?",
+    "expected_record": "NIA013",
+    "expected_behavior": "contextual_nearby_service",
+    "notes": "Visual location plus service request."
+  },
+  {
+    "scenario_id": "CH017",
+    "type": "uncertainty",
+    "modalities": [
+      "image"
+    ],
+    "image_label": "unclear_symbol",
+    "text": "",
+    "expected_record": "",
+    "expected_behavior": "request_clearer_input",
+    "notes": "No reliable modality available."
+  },
+  {
+    "scenario_id": "CH018",
+    "type": "transport",
+    "modalities": [
+      "text"
+    ],
+    "image_label": "",
+    "text": "I've got my bags. What's the step-free way to the train?",
+    "expected_record": "NIA021",
+    "expected_behavior": "accessible_route",
+    "notes": "Journey stage and accessibility."
+  },
+  {
+    "scenario_id": "CH019",
+    "type": "family_urgent",
+    "modalities": [
+      "text"
+    ],
+    "image_label": "",
+    "text": "We're at B9 with a baby and boarding soon. Where's the closest family facility?",
+    "expected_record": "NIA019",
+    "expected_behavior": "nearby_family_recommendation",
+    "notes": "Location, family and urgency combined."
+  },
+  {
+    "scenario_id": "CH020",
+    "type": "critical_vs_lost_property",
+    "modalities": [
+      "text"
+    ],
+    "image_label": "",
+    "text": "I lost my passport.",
+    "expected_record": "NIA024",
+    "expected_behavior": "human_handover",
+    "notes": "Must not route ordinary Lost & Found."
+  },
+  {
+    "scenario_id": "CH021",
+    "type": "ordinary_lost_property",
+    "modalities": [
+      "text"
+    ],
+    "image_label": "",
+    "text": "I lost my headphones.",
+    "expected_record": "NIA016",
+    "expected_behavior": "retrieve",
+    "notes": "Contrast with lost-passport scenario."
+  },
+  {
+    "scenario_id": "CH022",
+    "type": "multilingual",
+    "modalities": [
+      "text"
+    ],
+    "image_label": "",
+    "text": "Wo ist Gate B12?",
+    "expected_record": "NIA006",
+    "expected_behavior": "retrieve",
+    "notes": "German semantic retrieval test."
+  },
+  {
+    "scenario_id": "CH023",
+    "type": "multilingual",
+    "modalities": [
+      "text"
+    ],
+    "image_label": "",
+    "text": "Wo ist der Bahnhof?",
+    "expected_record": "NIA021",
+    "expected_behavior": "retrieve",
+    "notes": "German transport query."
+  },
+  {
+    "scenario_id": "CH024",
+    "type": "opening_hours",
+    "modalities": [
+      "voice"
+    ],
+    "image_label": "",
+    "text": "Is the lounge still open?",
+    "expected_record": "NIA013",
+    "expected_behavior": "retrieve_hours",
+    "notes": "Speech-to-text plus service-hours retrieval."
+  },
+  {
+    "scenario_id": "CH025",
+    "type": "contradiction",
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "image_label": "restaurant",
+    "text": "I need the security checkpoint.",
+    "expected_record": "NIA009",
+    "expected_behavior": "conflict_warning",
+    "notes": "Visual and text categories disagree."
+  },
+  {
+    "scenario_id": "CH026",
+    "type": "journey_context",
+    "modalities": [
+      "text"
+    ],
+    "image_label": "",
+    "text": "I've just finished international check-in. Where next?",
+    "expected_record": "NIA009",
+    "expected_behavior": "infer_next_stage",
+    "notes": "Journey-aware inference."
+  },
+  {
+    "scenario_id": "CH027",
+    "type": "live_data_safety",
+    "modalities": [
+      "text"
+    ],
+    "image_label": "",
+    "text": "Is my flight delayed?",
+    "expected_record": "",
+    "expected_behavior": "official_source_redirect",
+    "notes": "Requires live flight data unavailable in static KB."
+  },
+  {
+    "scenario_id": "CH028",
+    "type": "complementary",
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "image_label": "baggage_claim_t2",
+    "text": "After I get my bag, I want a taxi.",
+    "expected_record": "NIA022",
+    "expected_behavior": "journey_next_step",
+    "notes": "Image gives current location; text gives next destination."
+  },
+  {
+    "scenario_id": "CH029",
+    "type": "confidence_threshold",
+    "modalities": [
+      "image",
+      "text"
+    ],
+    "image_label": "low_confidence_information",
+    "text": "Help?",
+    "expected_record": "",
+    "expected_behavior": "clarify",
+    "notes": "Both signals weak; should not guess."
+  },
+  {
+    "scenario_id": "CH030",
+    "type": "transfer_urgent",
+    "modalities": [
+      "text"
+    ],
+    "image_label": "",
+    "text": "I have a very short connection. Where do I go?",
+    "expected_record": "NIA025",
+    "expected_behavior": "urgent_transfer_help",
+    "notes": "Urgency affects transfer response."
+  }
+]

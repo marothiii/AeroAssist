@@ -1,0 +1,763 @@
+[
+  {
+    "id": "NIA001",
+    "name": "Gate A3",
+    "category": "gate",
+    "terminal": "Terminal 1",
+    "zone": "A Concourse",
+    "floor": "Level 2",
+    "description": "International departure gate in the western A Concourse.",
+    "opening_hours": "According to scheduled departures",
+    "directions": "From Security Control North, follow signs for Gates A1-A5.",
+    "walking_minutes": 5,
+    "accessible_route": "Use the step-free A Concourse corridor; Lift L1 is available from Level 1.",
+    "accessible_minutes": 7,
+    "nearest_lift": "Lift L1",
+    "family_facilities": "Family restroom near Gate A4",
+    "related_facilities": [
+      "Security Control North",
+      "Information Desk T1"
+    ],
+    "keywords": [
+      "A3",
+      "gate A3",
+      "boarding",
+      "departure",
+      "A concourse"
+    ],
+    "criticality": "normal",
+    "contact": "Information Desk T1",
+    "live_data_required": true,
+    "verification_message": "Confirm final gate information on official airport departure displays."
+  },
+  {
+    "id": "NIA002",
+    "name": "Gate A8",
+    "category": "gate",
+    "terminal": "Terminal 1",
+    "zone": "A Concourse",
+    "floor": "Level 2",
+    "description": "International departure gate in the central A Concourse.",
+    "opening_hours": "According to scheduled departures",
+    "directions": "From Security Control North, continue through the A Concourse toward Gates A6-A10.",
+    "walking_minutes": 8,
+    "accessible_route": "Follow the step-free A Concourse route via Lift L1 if changing floors.",
+    "accessible_minutes": 10,
+    "nearest_lift": "Lift L1",
+    "family_facilities": "Family restroom near Gate A7",
+    "related_facilities": [
+      "SkyNova Lounge",
+      "Information Desk T1"
+    ],
+    "keywords": [
+      "A8",
+      "gate A8",
+      "boarding",
+      "departure"
+    ],
+    "criticality": "normal",
+    "contact": "Information Desk T1",
+    "live_data_required": true,
+    "verification_message": "Confirm final gate information on official airport departure displays."
+  },
+  {
+    "id": "NIA003",
+    "name": "Gate A12",
+    "category": "gate",
+    "terminal": "Terminal 1",
+    "zone": "A Concourse",
+    "floor": "Level 2",
+    "description": "International departure gate at the eastern end of A Concourse.",
+    "opening_hours": "According to scheduled departures",
+    "directions": "From Security Control North, follow the A Concourse to Gates A11-A12.",
+    "walking_minutes": 12,
+    "accessible_route": "Use the step-free A Concourse corridor and Lift L2 where required.",
+    "accessible_minutes": 15,
+    "nearest_lift": "Lift L2",
+    "family_facilities": "Family restroom near Gate A10",
+    "related_facilities": [
+      "SkyNova Lounge",
+      "Transfer Connections Desk"
+    ],
+    "keywords": [
+      "A12",
+      "gate A12",
+      "boarding"
+    ],
+    "criticality": "normal",
+    "contact": "Information Desk T1",
+    "live_data_required": true,
+    "verification_message": "Confirm final gate information on official airport departure displays."
+  },
+  {
+    "id": "NIA004",
+    "name": "Gate B4",
+    "category": "gate",
+    "terminal": "Terminal 2",
+    "zone": "B Concourse",
+    "floor": "Level 2",
+    "description": "Regional departure gate in western B Concourse.",
+    "opening_hours": "According to scheduled departures",
+    "directions": "From Security Control South, follow signs for Gates B1-B5.",
+    "walking_minutes": 5,
+    "accessible_route": "Use Lift L3 and the step-free western B Concourse route.",
+    "accessible_minutes": 7,
+    "nearest_lift": "Lift L3",
+    "family_facilities": "Family restroom near Gate B5",
+    "related_facilities": [
+      "Security Control South",
+      "Information Desk T2"
+    ],
+    "keywords": [
+      "B4",
+      "gate B4",
+      "regional",
+      "boarding"
+    ],
+    "criticality": "normal",
+    "contact": "Information Desk T2",
+    "live_data_required": true,
+    "verification_message": "Confirm final gate information on official airport departure displays."
+  },
+  {
+    "id": "NIA005",
+    "name": "Gate B9",
+    "category": "gate",
+    "terminal": "Terminal 2",
+    "zone": "B Concourse",
+    "floor": "Level 2",
+    "description": "Regional departure gate in central B Concourse.",
+    "opening_hours": "According to scheduled departures",
+    "directions": "From Security Control South, continue toward Gates B6-B10.",
+    "walking_minutes": 7,
+    "accessible_route": "Use Lift L4 and follow the step-free central B Concourse route.",
+    "accessible_minutes": 9,
+    "nearest_lift": "Lift L4",
+    "family_facilities": "Family restroom near Gate B10",
+    "related_facilities": [
+      "Family Care Zone",
+      "Information Desk T2"
+    ],
+    "keywords": [
+      "B9",
+      "gate B9",
+      "regional",
+      "boarding"
+    ],
+    "criticality": "normal",
+    "contact": "Information Desk T2",
+    "live_data_required": true,
+    "verification_message": "Confirm final gate information on official airport departure displays."
+  },
+  {
+    "id": "NIA006",
+    "name": "Gate B12",
+    "category": "gate",
+    "terminal": "Terminal 2",
+    "zone": "B Concourse",
+    "floor": "Level 2",
+    "description": "Regional departure gate in the eastern B Concourse.",
+    "opening_hours": "According to scheduled departures",
+    "directions": "From Security Control South, continue through B Concourse and follow signs for Gates B10-B15.",
+    "walking_minutes": 8,
+    "accessible_route": "Use Lift L4 beside Security Control South and follow the step-free B Concourse route.",
+    "accessible_minutes": 11,
+    "nearest_lift": "Lift L4",
+    "family_facilities": "Family restroom near Gate B10",
+    "related_facilities": [
+      "Information Desk T2",
+      "Family Care Zone"
+    ],
+    "keywords": [
+      "B12",
+      "gate B12",
+      "boarding",
+      "departure gate",
+      "B concourse"
+    ],
+    "criticality": "normal",
+    "contact": "Information Desk T2",
+    "live_data_required": true,
+    "verification_message": "Confirm final gate information on official airport departure displays."
+  },
+  {
+    "id": "NIA007",
+    "name": "International Check-in Hall",
+    "category": "check-in",
+    "terminal": "Terminal 1",
+    "zone": "Departures Hall",
+    "floor": "Level 1",
+    "description": "Main check-in area for international departures.",
+    "opening_hours": "04:00-23:00",
+    "directions": "Enter Terminal 1 Departures and continue straight to check-in islands 1-8.",
+    "walking_minutes": 2,
+    "accessible_route": "Level access from the Terminal 1 departure entrance.",
+    "accessible_minutes": 2,
+    "nearest_lift": "Lift L1",
+    "family_facilities": "Family seating area beside island 3",
+    "related_facilities": [
+      "Security Control North",
+      "Information Desk T1"
+    ],
+    "keywords": [
+      "check in",
+      "international check-in",
+      "bag drop",
+      "departures"
+    ],
+    "criticality": "normal",
+    "contact": "Information Desk T1",
+    "live_data_required": false,
+    "verification_message": "Check airline displays for the assigned check-in island."
+  },
+  {
+    "id": "NIA008",
+    "name": "Regional Check-in Hall",
+    "category": "check-in",
+    "terminal": "Terminal 2",
+    "zone": "Departures Hall",
+    "floor": "Level 1",
+    "description": "Check-in and bag-drop area for regional departures.",
+    "opening_hours": "04:30-22:30",
+    "directions": "Enter Terminal 2 Departures and follow signs to check-in islands 20-28.",
+    "walking_minutes": 2,
+    "accessible_route": "Level access from the Terminal 2 departure entrance.",
+    "accessible_minutes": 2,
+    "nearest_lift": "Lift L3",
+    "family_facilities": "Family seating beside island 22",
+    "related_facilities": [
+      "Security Control South",
+      "Information Desk T2"
+    ],
+    "keywords": [
+      "regional check-in",
+      "check in",
+      "bag drop"
+    ],
+    "criticality": "normal",
+    "contact": "Information Desk T2",
+    "live_data_required": false,
+    "verification_message": "Check airline displays for the assigned check-in island."
+  },
+  {
+    "id": "NIA009",
+    "name": "Security Control North",
+    "category": "security",
+    "terminal": "Terminal 1",
+    "zone": "Departures",
+    "floor": "Level 1",
+    "description": "Primary security checkpoint for Terminal 1 departures.",
+    "opening_hours": "04:00-last departure",
+    "directions": "Continue beyond the International Check-in Hall and follow Security signs.",
+    "walking_minutes": 3,
+    "accessible_route": "Accessible screening lane is located on the right side of the checkpoint.",
+    "accessible_minutes": 3,
+    "nearest_lift": "Lift L1",
+    "family_facilities": "Family screening lane available",
+    "related_facilities": [
+      "International Check-in Hall",
+      "Gate A3",
+      "Gate A8",
+      "Gate A12"
+    ],
+    "keywords": [
+      "security",
+      "screening",
+      "security control",
+      "T1"
+    ],
+    "criticality": "normal",
+    "contact": "Security Assistance Point",
+    "live_data_required": true,
+    "verification_message": "Security waiting times can change; follow on-site displays."
+  },
+  {
+    "id": "NIA010",
+    "name": "Security Control South",
+    "category": "security",
+    "terminal": "Terminal 2",
+    "zone": "Departures",
+    "floor": "Level 1",
+    "description": "Primary security checkpoint for Terminal 2 departures.",
+    "opening_hours": "04:30-last departure",
+    "directions": "Continue beyond Regional Check-in and follow Security signs.",
+    "walking_minutes": 3,
+    "accessible_route": "Use the marked accessible screening lane beside Lift L4.",
+    "accessible_minutes": 3,
+    "nearest_lift": "Lift L4",
+    "family_facilities": "Family screening lane available",
+    "related_facilities": [
+      "Regional Check-in Hall",
+      "Gate B4",
+      "Gate B9",
+      "Gate B12"
+    ],
+    "keywords": [
+      "security",
+      "screening",
+      "security control",
+      "T2"
+    ],
+    "criticality": "normal",
+    "contact": "Security Assistance Point",
+    "live_data_required": true,
+    "verification_message": "Security waiting times can change; follow on-site displays."
+  },
+  {
+    "id": "NIA011",
+    "name": "Baggage Claim Hall 1",
+    "category": "baggage",
+    "terminal": "Terminal 1",
+    "zone": "Arrivals",
+    "floor": "Ground Floor",
+    "description": "Baggage reclaim area for Terminal 1 arrivals.",
+    "opening_hours": "According to arriving flights",
+    "directions": "After immigration, follow Baggage Claim signs to belts 1-8.",
+    "walking_minutes": 4,
+    "accessible_route": "Step-free route from immigration to all baggage belts.",
+    "accessible_minutes": 4,
+    "nearest_lift": "Lift L1",
+    "family_facilities": "Family restroom near belt 4",
+    "related_facilities": [
+      "Information Desk T1",
+      "Lost & Found Centre"
+    ],
+    "keywords": [
+      "baggage claim",
+      "luggage",
+      "bags",
+      "carousel",
+      "belt"
+    ],
+    "criticality": "normal",
+    "contact": "Baggage Services",
+    "live_data_required": true,
+    "verification_message": "Confirm the assigned baggage belt on arrival displays."
+  },
+  {
+    "id": "NIA012",
+    "name": "Baggage Claim Hall 2",
+    "category": "baggage",
+    "terminal": "Terminal 2",
+    "zone": "Arrivals",
+    "floor": "Ground Floor",
+    "description": "Baggage reclaim area for Terminal 2 arrivals.",
+    "opening_hours": "According to arriving flights",
+    "directions": "Follow Arrivals and Baggage Claim signs to belts 10-18.",
+    "walking_minutes": 4,
+    "accessible_route": "Step-free access to all baggage belts.",
+    "accessible_minutes": 4,
+    "nearest_lift": "Lift L3",
+    "family_facilities": "Family restroom near belt 14",
+    "related_facilities": [
+      "Information Desk T2",
+      "Lost & Found Centre"
+    ],
+    "keywords": [
+      "baggage claim",
+      "luggage",
+      "bags",
+      "carousel"
+    ],
+    "criticality": "normal",
+    "contact": "Baggage Services",
+    "live_data_required": true,
+    "verification_message": "Confirm the assigned baggage belt on arrival displays."
+  },
+  {
+    "id": "NIA013",
+    "name": "SkyNova Lounge",
+    "category": "lounge",
+    "terminal": "Terminal 1",
+    "zone": "Airside A Concourse",
+    "floor": "Level 2",
+    "description": "Quiet passenger lounge with seating, refreshments and work areas.",
+    "opening_hours": "05:00-22:00",
+    "directions": "After Security Control North, turn right toward Gates A6-A10.",
+    "walking_minutes": 6,
+    "accessible_route": "Step-free route from security; accessible entrance and restroom provided.",
+    "accessible_minutes": 7,
+    "nearest_lift": "Lift L1",
+    "family_facilities": "Family seating section",
+    "related_facilities": [
+      "Gate A8",
+      "Quiet & Prayer Room"
+    ],
+    "keywords": [
+      "lounge",
+      "quiet",
+      "rest",
+      "SkyNova"
+    ],
+    "criticality": "normal",
+    "contact": "Lounge Reception",
+    "live_data_required": false,
+    "verification_message": ""
+  },
+  {
+    "id": "NIA014",
+    "name": "Information Desk T1",
+    "category": "information",
+    "terminal": "Terminal 1",
+    "zone": "Main Hall",
+    "floor": "Level 1",
+    "description": "Passenger information and general assistance desk.",
+    "opening_hours": "05:00-23:00",
+    "directions": "Located centrally between the Terminal 1 entrance and check-in hall.",
+    "walking_minutes": 1,
+    "accessible_route": "Level access from the main entrance.",
+    "accessible_minutes": 1,
+    "nearest_lift": "Lift L1",
+    "family_facilities": "Family waiting seats nearby",
+    "related_facilities": [
+      "International Check-in Hall",
+      "Special Assistance Desk"
+    ],
+    "keywords": [
+      "information",
+      "help",
+      "desk",
+      "questions"
+    ],
+    "criticality": "assistance",
+    "contact": "Information Desk T1",
+    "live_data_required": false,
+    "verification_message": ""
+  },
+  {
+    "id": "NIA015",
+    "name": "Information Desk T2",
+    "category": "information",
+    "terminal": "Terminal 2",
+    "zone": "Main Hall",
+    "floor": "Level 1",
+    "description": "Passenger information desk for Terminal 2.",
+    "opening_hours": "05:00-22:30",
+    "directions": "Located opposite the Terminal 2 main entrance.",
+    "walking_minutes": 1,
+    "accessible_route": "Level access from the main entrance.",
+    "accessible_minutes": 1,
+    "nearest_lift": "Lift L3",
+    "family_facilities": "Family seating nearby",
+    "related_facilities": [
+      "Regional Check-in Hall",
+      "Family Care Zone"
+    ],
+    "keywords": [
+      "information",
+      "help",
+      "desk",
+      "T2"
+    ],
+    "criticality": "assistance",
+    "contact": "Information Desk T2",
+    "live_data_required": false,
+    "verification_message": ""
+  },
+  {
+    "id": "NIA016",
+    "name": "Lost & Found Centre",
+    "category": "assistance",
+    "terminal": "Terminal 2",
+    "zone": "Arrivals Public Area",
+    "floor": "Ground Floor",
+    "description": "Assistance centre for property lost within Nova International Airport.",
+    "opening_hours": "07:00-21:00",
+    "directions": "From Baggage Claim Hall 2 exit, turn left and follow Lost & Found signs.",
+    "walking_minutes": 3,
+    "accessible_route": "Fully step-free from Terminal 2 arrivals.",
+    "accessible_minutes": 3,
+    "nearest_lift": "Lift L3",
+    "family_facilities": "Seating available",
+    "related_facilities": [
+      "Baggage Claim Hall 2",
+      "Information Desk T2"
+    ],
+    "keywords": [
+      "lost",
+      "lost phone",
+      "lost property",
+      "lost and found"
+    ],
+    "criticality": "assistance",
+    "contact": "Lost & Found Centre",
+    "live_data_required": false,
+    "verification_message": "For passports or identity documents, use the Passport & Travel Help Desk."
+  },
+  {
+    "id": "NIA017",
+    "name": "Special Assistance Desk",
+    "category": "accessibility",
+    "terminal": "Terminal 1",
+    "zone": "Main Hall",
+    "floor": "Level 1",
+    "description": "Support point for passengers requiring mobility or accessibility assistance.",
+    "opening_hours": "04:30-23:00",
+    "directions": "Located beside Information Desk T1 near the main entrance.",
+    "walking_minutes": 1,
+    "accessible_route": "Level access with lowered service counter and seating.",
+    "accessible_minutes": 1,
+    "nearest_lift": "Lift L1",
+    "family_facilities": "Companion seating provided",
+    "related_facilities": [
+      "Information Desk T1",
+      "Medical Assistance Point"
+    ],
+    "keywords": [
+      "wheelchair",
+      "mobility",
+      "special assistance",
+      "accessible",
+      "disability"
+    ],
+    "criticality": "assistance",
+    "contact": "Special Assistance Desk",
+    "live_data_required": false,
+    "verification_message": "Passengers needing time-critical assistance should contact airport staff directly."
+  },
+  {
+    "id": "NIA018",
+    "name": "Quiet & Prayer Room",
+    "category": "passenger-service",
+    "terminal": "Terminal 1",
+    "zone": "Airside A Concourse",
+    "floor": "Level 2",
+    "description": "Multi-faith quiet room available to all passengers.",
+    "opening_hours": "05:00-22:30",
+    "directions": "After Security Control North, follow signs toward SkyNova Lounge and Quiet Room.",
+    "walking_minutes": 7,
+    "accessible_route": "Step-free access from A Concourse.",
+    "accessible_minutes": 8,
+    "nearest_lift": "Lift L1",
+    "family_facilities": "Quiet family seating nearby",
+    "related_facilities": [
+      "SkyNova Lounge",
+      "Gate A8"
+    ],
+    "keywords": [
+      "prayer",
+      "quiet room",
+      "multi faith",
+      "meditation"
+    ],
+    "criticality": "normal",
+    "contact": "Information Desk T1",
+    "live_data_required": false,
+    "verification_message": ""
+  },
+  {
+    "id": "NIA019",
+    "name": "Family Care Zone",
+    "category": "family",
+    "terminal": "Terminal 2",
+    "zone": "Airside B Concourse",
+    "floor": "Level 2",
+    "description": "Family area with baby-changing facilities, feeding space and child-friendly seating.",
+    "opening_hours": "05:00-22:00",
+    "directions": "After Security Control South, continue toward Gates B6-B10.",
+    "walking_minutes": 6,
+    "accessible_route": "Step-free route via Lift L4.",
+    "accessible_minutes": 7,
+    "nearest_lift": "Lift L4",
+    "family_facilities": "Baby changing, feeding room, family restroom",
+    "related_facilities": [
+      "Gate B9",
+      "Gate B12"
+    ],
+    "keywords": [
+      "baby",
+      "family",
+      "changing",
+      "feeding",
+      "children"
+    ],
+    "criticality": "normal",
+    "contact": "Information Desk T2",
+    "live_data_required": false,
+    "verification_message": ""
+  },
+  {
+    "id": "NIA020",
+    "name": "Nova Food Court",
+    "category": "restaurant",
+    "terminal": "Terminal 1",
+    "zone": "Airside A Concourse",
+    "floor": "Level 2",
+    "description": "Dining area with multiple food and beverage outlets.",
+    "opening_hours": "05:30-22:00",
+    "directions": "After Security Control North, continue straight to the central A Concourse.",
+    "walking_minutes": 5,
+    "accessible_route": "Step-free access throughout the dining area.",
+    "accessible_minutes": 5,
+    "nearest_lift": "Lift L1",
+    "family_facilities": "High chairs and family seating",
+    "related_facilities": [
+      "Gate A8",
+      "SkyNova Lounge"
+    ],
+    "keywords": [
+      "food",
+      "restaurant",
+      "eat",
+      "coffee",
+      "food court"
+    ],
+    "criticality": "normal",
+    "contact": "Information Desk T1",
+    "live_data_required": false,
+    "verification_message": ""
+  },
+  {
+    "id": "NIA021",
+    "name": "Airport Train Station",
+    "category": "transport",
+    "terminal": "Terminal 2",
+    "zone": "Ground Transport",
+    "floor": "Lower Ground",
+    "description": "Rail connection between Nova Airport and the city.",
+    "opening_hours": "04:30-01:00",
+    "directions": "From Terminal 2 Arrivals, follow Train symbols to the lower-ground station.",
+    "walking_minutes": 7,
+    "accessible_route": "Use Lift L5 from Arrivals to the station concourse.",
+    "accessible_minutes": 9,
+    "nearest_lift": "Lift L5",
+    "family_facilities": "Accessible/family ticket gates",
+    "related_facilities": [
+      "Taxi & Rideshare Zone",
+      "Information Desk T2"
+    ],
+    "keywords": [
+      "train",
+      "rail",
+      "city",
+      "station",
+      "transport"
+    ],
+    "criticality": "normal",
+    "contact": "Transport Information Point",
+    "live_data_required": true,
+    "verification_message": "Check official transport displays for live departures and disruptions."
+  },
+  {
+    "id": "NIA022",
+    "name": "Taxi & Rideshare Zone",
+    "category": "transport",
+    "terminal": "Terminal 2",
+    "zone": "Ground Transport",
+    "floor": "Ground Floor",
+    "description": "Designated taxi and app-based rideshare pickup area.",
+    "opening_hours": "24 hours",
+    "directions": "Exit Terminal 2 Arrivals through Door 4 and follow Taxi/Rideshare signs.",
+    "walking_minutes": 4,
+    "accessible_route": "Step-free route from Arrivals; accessible taxi bay at stand 1.",
+    "accessible_minutes": 4,
+    "nearest_lift": "Lift L3",
+    "family_facilities": "Covered family waiting area",
+    "related_facilities": [
+      "Airport Train Station",
+      "Information Desk T2"
+    ],
+    "keywords": [
+      "taxi",
+      "rideshare",
+      "uber",
+      "pickup",
+      "transport"
+    ],
+    "criticality": "normal",
+    "contact": "Ground Transport Desk",
+    "live_data_required": false,
+    "verification_message": "Use only designated pickup areas."
+  },
+  {
+    "id": "NIA023",
+    "name": "Medical Assistance Point",
+    "category": "emergency",
+    "terminal": "Terminal 1",
+    "zone": "Main Hall",
+    "floor": "Level 1",
+    "description": "First-aid and urgent passenger medical assistance point.",
+    "opening_hours": "24 hours",
+    "directions": "Located beside the Special Assistance Desk in Terminal 1 Main Hall.",
+    "walking_minutes": 2,
+    "accessible_route": "Level, step-free access from Terminal 1 entrance.",
+    "accessible_minutes": 2,
+    "nearest_lift": "Lift L1",
+    "family_facilities": "Companion seating",
+    "related_facilities": [
+      "Special Assistance Desk",
+      "Information Desk T1"
+    ],
+    "keywords": [
+      "medical",
+      "first aid",
+      "sick",
+      "injury",
+      "emergency"
+    ],
+    "criticality": "critical",
+    "contact": "Airport Emergency Team",
+    "live_data_required": false,
+    "verification_message": "For immediate danger, contact airport emergency staff directly."
+  },
+  {
+    "id": "NIA024",
+    "name": "Passport & Travel Help Desk",
+    "category": "assistance",
+    "terminal": "Terminal 1",
+    "zone": "Main Hall",
+    "floor": "Level 1",
+    "description": "Human assistance point for lost travel documents and urgent travel-document problems.",
+    "opening_hours": "05:00-23:00",
+    "directions": "Located beside Information Desk T1 before security.",
+    "walking_minutes": 1,
+    "accessible_route": "Level access from Terminal 1 Main Hall.",
+    "accessible_minutes": 1,
+    "nearest_lift": "Lift L1",
+    "family_facilities": "Waiting seats available",
+    "related_facilities": [
+      "Information Desk T1",
+      "Airport Police Point"
+    ],
+    "keywords": [
+      "passport",
+      "lost passport",
+      "travel document",
+      "identity document"
+    ],
+    "criticality": "critical",
+    "contact": "Passport & Travel Help Desk",
+    "live_data_required": false,
+    "verification_message": "Lost passports require human assistance; do not rely solely on chatbot guidance."
+  },
+  {
+    "id": "NIA025",
+    "name": "Transfer Connections Desk",
+    "category": "transfer",
+    "terminal": "Terminal 1",
+    "zone": "Airside Transfer Zone",
+    "floor": "Level 2",
+    "description": "Assistance desk for connecting passengers and terminal transfers.",
+    "opening_hours": "05:00-23:00",
+    "directions": "Follow Connections signs after arrival screening toward the A Concourse transfer zone.",
+    "walking_minutes": 6,
+    "accessible_route": "Step-free transfer route using Lift L2 where required.",
+    "accessible_minutes": 8,
+    "nearest_lift": "Lift L2",
+    "family_facilities": "Family transfer seating",
+    "related_facilities": [
+      "Gate A12",
+      "Information Desk T1"
+    ],
+    "keywords": [
+      "transfer",
+      "connection",
+      "connecting flight",
+      "next flight"
+    ],
+    "criticality": "assistance",
+    "contact": "Transfer Connections Desk",
+    "live_data_required": true,
+    "verification_message": "Verify connecting gate and departure time on official airport displays."
+  }
+]
